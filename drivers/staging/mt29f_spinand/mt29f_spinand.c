@@ -35,7 +35,7 @@ struct mtd_partition spinand_partitions[] = {
 	},
 	{
 		.name = "Kernel",
-		.size = 20 * 1024 * 1024,
+		.size = 40 * 1024 * 1024,
 		.offset = MTDPART_OFS_APPEND,
 	},
 	{
